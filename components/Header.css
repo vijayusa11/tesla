@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 999;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.header__logo {
+    height: 24px;
+    width: 100px;
+    margin-top: 7px;
+}
+
+.header__center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header__center > p {
+    margin: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+.header__right > p {
+    margin: 10px;
+    font-weight: 600;
+}
+
+.header__icon {
+    margin: 10px;
+    margin-right: 25px;
+}
